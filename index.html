@@ -49,8 +49,19 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 24px;
+      font-size: 22px;
       color: #333;
+      font-weight: bold;
+      text-align: center;
+      padding: 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .card-front:hover {
+      background: #fbb4c0; /* Цвет при наведении */
+      color: #fff;
     }
 
     .card-back {
@@ -78,7 +89,7 @@
 <div class="card-container">
   <div class="card" id="card">
     <div class="card-side card-front">
-      💌 Жазбаны ашу үшін басыңыз
+      💌 Жазбаны ашу үшін
     </div>
     <div class="card-side card-back">
       <div class="letter" id="letter-text">
